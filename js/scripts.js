@@ -13,14 +13,18 @@ function roboRogers(number) {
     for (index = 0; index < array.length; index++) {
         if (array[index].includes(1)){
             array[index] = "Beep!";
-        } else if array[index].includes(2){
+        } else if (array[index].includes(2)){
             array[index] = "Boop!"
-        } else if array[index].includes(3){
+        } else if (array[index].includes(3)){
             array[index] = "Won't you be my neighbor?";
-        } else array[index] = array[index];
+        } else (array[index] = array[index]);
     }
+
+    let string = "";
+    string.forEach(function(element) {
+        string = string + element + " ";
+    })
+    return string.slice(0,String.length - 1);
 }
-
-
 
 //UI Logic
