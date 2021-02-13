@@ -2,9 +2,9 @@
 
 #### Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
-*Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-*Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-*Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+* Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
 #### By Saoud Rana
 
@@ -34,7 +34,7 @@ Expect: roboRoger(1).toEqual("Beep!");
 Test: It should return a string "Boop!" if the number "2" is input.
 Expect: roboRoger(2).toEqual("Boop!");
 
-Test It should return a string "Won't you be my neighbor?" if the number "3" is input.
+Test: It should return a string "Won't you be my neighbor?" if the number "3" is input.
 Expect: roboRoger(3).toEqual("Won't you be my neighbor?");
 
 
@@ -42,7 +42,7 @@ Expect: roboRoger(3).toEqual("Won't you be my neighbor?");
 
 ## Setup/Installation Requirements
 
-* _Open terminal
+* Open terminal
 * _In terminal, type 'git clone https://github.com/saoud/Mr.-Roboger-Neighborhood.git' and press enter._
 * _You have two options, you can just drag the index.html file to your browser or you can follow the following steps:_
 * _1. In terminal, type 'cd portfolio' and press enter._
