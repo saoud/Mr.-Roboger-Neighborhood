@@ -23,19 +23,19 @@
 * Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 ## Tests
 
-Describe: roboRoger();
+Describe: roboRogers();
 
 Test: It should return an empty array if the number "0" is input.
-Expect: roboRoger(0).toEqual([0]);
+Expect: roboRogers(0).toEqual([0]);
 
 Test: It should return the string "Beep!" if the number "1" is input.
-Expect: roboRoger(1).toEqual("Beep!");
+Expect: roboRogers(1).toEqual("Beep!");
 
 Test: It should return a string "Boop!" if the number "2" is input.
-Expect: roboRoger(2).toEqual("Boop!");
+Expect: roboRogers(2).toEqual("Boop!");
 
 Test: It should return a string "Won't you be my neighbor?" if the number "3" is input.
-Expect: roboRoger(3).toEqual("Won't you be my neighbor?");
+Expect: roboRogers(3).toEqual("Won't you be my neighbor?");
 
 
 
