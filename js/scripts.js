@@ -12,10 +12,13 @@ function roboRogers(number) {
 		
     if (array[index] === "13") {
     return "Won't you be my neighbor?";
+    break;
     	} else if (array[index] === "21") {
       return "Boop";
+      break;
       } else if (array[index] === "32"); {
       return "Won't you be my neighbor?"
+      break;
       }
     let index = 0;
     for (index = 0; index < array.length; index++) {
