@@ -9,11 +9,11 @@ function roboRogers(number) {
     }
     let index = 0;
     for (index = 0; index < array.length; index++) {
-        if (array[index].includes(13)){
+        if (array[index].includes(32)){
             array[index] = "Won't you be my neighbor!";
         } else if (array[index].includes(21)){
             array[index] = "Boop"
-        } else if (array[index].includes(32)){
+        } else if (array[index].includes(13)){
             array[index] = "Won't you be my neighbor?";
         } else if (array[index].includes(1)){
             array[index] = "Beep!";
