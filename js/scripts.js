@@ -7,19 +7,6 @@ function roboRogers(number) {
         array.push(i.toString());
         i ++;
     }
-
-    
-		
-    if (array[index] === "13") {
-    return "Won't you be my neighbor?";
-    break;
-    	} else if (array[index] === "21") {
-      return "Boop";
-      break;
-      } else if (array[index] === "32"); {
-      return "Won't you be my neighbor?"
-      break;
-      }
     let index = 0;
     for (index = 0; index < array.length; index++) {
         if (array[index].includes(13)){
@@ -34,7 +21,8 @@ function roboRogers(number) {
             array[index] = "Boop!"
         } else if (array[index].includes(3)){
             array[index] = "Won't you be my neighbor?";
-        else (array[index] = array[index]);
+        } else (array[index] = array[index]);
+            return "Something isn't working correctly";
     }
 
     let string = "";
@@ -42,8 +30,6 @@ function roboRogers(number) {
         string = string + element + " ";
     })
     return string.slice(0,String.length - 1);
-}
-
 }
 
 //UI Logic
