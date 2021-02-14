@@ -39,5 +39,5 @@ $document.ready(function() {
         const output = roboRogers(parseInt(number));
         $("#roboRogers").text(output);
         event.preventDefault();
-    )};
-)};
+    });
+});
