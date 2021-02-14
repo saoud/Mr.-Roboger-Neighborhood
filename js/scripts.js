@@ -33,7 +33,7 @@ function roboRogers(number) {
 }
 
 //UI Logic
-$document.ready(function() {
+document.ready(function() {
     $("formOne").submit(function(event) {
         const number = $("input#number").val();
         const output = roboRogers(parseInt(number));
