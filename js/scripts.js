@@ -12,13 +12,13 @@ function roboRogers(number) {
         if (array[index].includes(32)){
             array[index] = "Won't you be my neighbor!";
         } else if (array[index].includes(21)){
-            array[index] = "Boop"
+            array[index] = "Boop";
         } else if (array[index].includes(13)){
             array[index] = "Won't you be my neighbor?";
         } else if (array[index].includes(1)){
             array[index] = "Beep!";
         } else if (array[index].includes(2)){
-            array[index] = "Boop!"
+            array[index] = "Boop!";
         } else if (array[index].includes(3)){
             array[index] = "Won't you be my neighbor?";
         } else (array[index] = array[index]);
@@ -28,7 +28,7 @@ function roboRogers(number) {
     let string = "";
     string.forEach(function(element) {
         string = string + element + " ";
-    })
+    });
     return string.slice(0,String.length - 1);
 }
 
