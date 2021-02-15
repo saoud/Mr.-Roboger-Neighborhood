@@ -27,24 +27,31 @@
 Describe: roboRogers();
 
 Test: It should return "Won't you be my neighbor?" when "32" is input.
+
 Expect: roboRogers(32).toEqual("Won't you be my neighbor?")
 
 Test: It should return "Won't you be my neighbor?" when "21" is input.
+
 Expect: roboRogers(21).toEqual("Boop")
 
 Test: It should return "Won't you be my neighbor?" when "13" is input.
+
 Expect: roboRogers(13).toEqual("Won't you be my neighbor?")
 
 Test: It should return an empty array if the number "0" is input.
+
 Expect: roboRogers(0).toEqual([0]);
 
 Test: It should return the string "Beep!" if the number "1" is input.
+
 Expect: roboRogers(1).toEqual("Beep!");
 
 Test: It should return a string "Boop!" if the number "2" is input.
+
 Expect: roboRogers(2).toEqual("Boop!");
 
 Test: It should return a string "Won't you be my neighbor?" if the number "3" is input.
+
 Expect: roboRogers(3).toEqual("Won't you be my neighbor?");
 
 
