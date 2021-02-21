@@ -6,11 +6,6 @@
 * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 * Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
-* There are 3 exceptions to the rules above ordered in most imporatant to least:
-* 1) The number 32 should be replaced with "Won't you be my neighbor?"
-* 2) The number 21 should be replaced with "Boop".
-* 3) The number 13 should be replaced with "Won't you be my neighbor?"
-
 #### By Saoud Rana
 
 ## Technologies Used
