@@ -1,10 +1,12 @@
 # Saoud's 3rd Epicodus project
 
-#### A web-based application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the some exceptions list below:
 
-* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-* Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+_Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:_
+
+* _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+* _Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+* _Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"_
+* _These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. _
 
 #### By Saoud Rana
 
