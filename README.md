@@ -67,7 +67,7 @@ No known bugs at this time
 
 ## License
 
-MIT License(https://github.com/saoud/Mr.-Roboger-Neighborhood/blob/main/LICENSE)
+* [MIT License](https://github.com/saoud/Mr.-Roboger-Neighborhood/blob/main/LICENSE)
 
 ## Contact Information
 
